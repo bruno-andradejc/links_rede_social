@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Paytone+One&family=Sriracha&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ebc7da;
+}
+
+a {
+    text-decoration: none;
+}
+
+.caixa {
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: #ff69b4 solid 4px;
+    padding: 3.7px;
+}
+
+h1 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 45px;
+    font-family:'Dancing Script', cursive;
+}
+
+p {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    margin: 48px 0;
+}
+
+ul li a {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8077f;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+    border-radius: 9px;
+}
+
+ul li a:hover {
+    background-color: #ff69b4;
+}
+
+
+footer a {
+    color: #f8077f; 
+}
+
+footer a:hover {
+    color: black;
+}
+
